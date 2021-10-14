@@ -9,5 +9,5 @@ export const parameters = {
     },
   },
   //👇 Configures Storybook to log the actions( onArchiveTask and onPinTask ) in the UI.
-  actions: { argTypesRegex: '^on[A-Z].*' }, // parameters are typically used to control the behavior of Storybook's features and addons
+  actions: { argTypesRegex: '^on[A-Z].*' },
 };
